@@ -20,7 +20,7 @@ import {AutoToolChat, Backend, Engine, LiteRtLm, loadLiteRtLm, ContentPart, Tool
 const TEST_TIMEOUT_MS = 1200_000;  // 20 minutes
 jasmine.DEFAULT_TIMEOUT_INTERVAL = TEST_TIMEOUT_MS;
 
-const GPU_ARTISAN_MODEL_PATH = '/models/gemma4-e4b-hw.litertlm';
+const GPU_ARTISAN_MODEL_PATH = '/models/gemma4-e2b-hw.litertlm';
 
 describe('AutoToolChat E2E Integration tests', () => {
   let liteRtLm: LiteRtLm;
